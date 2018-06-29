@@ -13,7 +13,7 @@ function produceDrivingRange(blockRange) {
     if ( range > 0 ) {
       return `within range by ${range}`;
     } else {
-      range *= (-1);
+      range *= -1;
       return `${range} blocks out of range`;
     }
   };
