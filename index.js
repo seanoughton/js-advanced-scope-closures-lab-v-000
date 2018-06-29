@@ -8,8 +8,8 @@ function produceDrivingRange(blockRange) {
     let endNum = parseInt(endingBlock.slice(0,-2), 10);
     let distance = endNum - begNum;
 
-    console.log (distance);
     if ( distance < blockRange ) {
+      console.log (distance);
       return `2 blocks out of range`;
     } else {
       return `within range by 4`;
