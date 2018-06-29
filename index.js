@@ -12,7 +12,7 @@ function produceDrivingRange(blockRange) {
       console.log (distance);
       return `within range by 4`;
     } else {
-      return `within range by 4`;
+      return `2 blocks out of range`;
     }
   };
 };
