@@ -6,6 +6,8 @@ function produceDrivingRange(blockRange) {
   return function (beginningBlock,endingBlock) {
     if ( (beginningBlock - endingBlock) < blockRange ) {
       return true
+    } else {
+      return false
     }
   };
 };
