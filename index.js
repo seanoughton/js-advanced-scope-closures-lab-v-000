@@ -7,7 +7,7 @@ function produceDrivingRange(blockRange) {
     if ( (beginningBlock - endingBlock) < blockRange ) {
       return `2 blocks out of range`;
     } else {
-      return false
+      return `within range by 4`;
     }
   };
 };
