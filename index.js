@@ -4,13 +4,13 @@ function produceDrivingRange(blockRange) {
   //blockRange is the number of blocks where something is in range
   console.log(blockRange);
   return function (beginningBlock,endingBlock) {
+    console.log (blockRange);
     let begNum = parseInt(beginningBlock.slice(0,-2), 10);
     let endNum = parseInt(endingBlock.slice(0,-2), 10);
     let distance = endNum - begNum;
     //let range = blockRange - distance;
 
     if ( distance < blockRange ) {
-      console.log (blockRange);
       return `within range by ${distance}`;
     } else {
       return `${distance} blocks out of range`;
