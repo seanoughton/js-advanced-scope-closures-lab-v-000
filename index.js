@@ -8,6 +8,6 @@ function produceDrivingRange(blockRange) {
       return `2 blocks out of range`
     } else {
       return `within range by 4`
-    }*/
-  };
+    }
+  };*/
 };
