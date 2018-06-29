@@ -11,7 +11,6 @@ function produceDrivingRange(blockRange) {
     let distance = endNum - begNum;
     let range = blockRange - distance;
 
-    console.log (range);
     if ( range > 0 ) {
       return `within range by ${range}`;
     } else {
