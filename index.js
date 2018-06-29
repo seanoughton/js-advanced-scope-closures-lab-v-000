@@ -14,3 +14,8 @@ function produceDrivingRange(blockRange) {
     }
   };
 };
+
+//- Returns a function that then calculates a tip. For example, produceTipCalculator(.10) returns a function that calculates ten percent tip on a fare. produceTipCalculator(.20) returns a function that calculates twenty percent tip on a fare.
+function produceTipCalculator() {
+
+};
