@@ -4,6 +4,7 @@ function produceDrivingRange(blockRange) {
   //blockRange is the number of blocks where something is in range
 
   return function (beginningBlock,endingBlock) {
+    console.log(beginningBlock);
     if ( (beginningBlock - endingBlock) <= blockRange ) {
       return `2 blocks out of range`;
     } else {
