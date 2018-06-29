@@ -2,9 +2,6 @@
 
 function produceDrivingRange(blockRange) {
   //blockRange is the number of blocks where something is in range
-
-
-
   return function (beginningBlock,endingBlock) {
     let begNum = parseInt(beginningBlock.slice(0,-2), 10);
     let endNum = parseInt(endingBlock.slice(0,-2), 10);
@@ -13,7 +10,6 @@ function produceDrivingRange(blockRange) {
     if ( range > 0 ) {
       return `within range by ${range}`;
     } else {
-      
       return `${range *= -1} blocks out of range`;
     }
   };
