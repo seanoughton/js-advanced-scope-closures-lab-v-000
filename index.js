@@ -2,7 +2,7 @@
 
 function produceDrivingRange(blockRange) {
   //blockRange is the number of blocks where something is in range
-  console.log(blockRange);
+  
 
 
   return function (beginningBlock,endingBlock) {
