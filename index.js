@@ -5,6 +5,7 @@ function produceDrivingRange(blockRange) {
 
   return function (beginningBlock,endingBlock) {
     let begNum = beginningBlock.slice(0,-1);
+    console.log (begNum);
     if ( (beginningBlock - endingBlock) <= blockRange ) {
       return `2 blocks out of range`;
     } else {
