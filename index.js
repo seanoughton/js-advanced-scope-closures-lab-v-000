@@ -15,6 +15,7 @@ function produceDrivingRange(blockRange) {
     if ( range > 0 ) {
       return `within range by ${range}`;
     } else {
+      console.log(`${range} blocks out of range`)
       return `${range} blocks out of range`;
     }
   };
