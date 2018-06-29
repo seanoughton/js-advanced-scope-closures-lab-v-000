@@ -9,7 +9,7 @@ function produceDrivingRange(blockRange) {
     let distance = endNum - begNum;
 
     if ( distance < blockRange ) {
-      console.log (distance);
+      console.log (`within range by ${distance}`);
       return `within range by ${distance}`;
     } else {
       return `${distance} blocks out of range`;
